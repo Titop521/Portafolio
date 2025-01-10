@@ -1,114 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/flexbox.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <title>Portafolio</title>
-  </head>
-  <body>
-    <!-- Cabecera -->
 
-    <!-- <header class="cabecera">
-      <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
-      <h1 class="cabecera__titulo">Alura Latam</h1>
-      <nav class="navegacion">
-          <ul class="navegacion__lista">
-              <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
-              <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
-              <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
-              <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
-              <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
-              <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
-          </ul>
-      </nav>
-  </header> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/flexbox.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+  <title>Portafolio</title>
+</head>
 
-   <header class="menu_header">
-      <img
-        class="menu_header_logo"
-        src="/img/LOGO TIto 2.png"
-        alt="Logo Portafolio Tito Ortiz"
-      />
-      <div class="menu_enlaces">
-        <nav>
-          <a href="#sobre_mi">Sobre Mi</a>
-          <a href="#skills">Skills</a>
-          <a href="#hobbies">Hobbies</a>
-          <a href="#formacion">Formacion</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#contactame">Contactame</a>
-        </nav>
+<body>
+  <!-- Cabecera -->
+
+  <header class="menu_header">
+    <div class="menu_header_contenedor">
+      <img class="menu_header_logo" src="/img/programming1.png" alt="Logo Portafolio Tito Ortiz" />
+      <p class="menu_header_titulo">Tito Ortiz</p>
+    </div>
+
+    <nav class="menu_header_navegacion">
+      <a href="#sobre_mi">Sobre Mi</a>
+      <a href="#skills">Skills</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#formacion">Formacion</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contactame">Contactame</a>
+    </nav>
+
+  </header>
+
+  <!-- Seccion Presentación -->
+
+  <section class="presentacion">
+    <div class="contenedor_pres">
+      <div>
+        <img class="presentacion_foto" src="/img/Z. 2 Foto Tito.jpg" alt="" />
       </div>
-    </header>
-
-    <!-- Seccion Presentación -->
-
-    <section class="presentacion">
-      <img class="presentacion_foto" src="/img/Z. 2 Foto Tito.jpg" alt="" />
 
       <div class="presentacion_contenedor">
         <h1 class="presentacion_contenedor_titulo">
-          Hola, mi nombre es Tito Ortiz, Construyo páginas web únicas,
+          Hola, mi nombre es Tito Ortiz Pulido... <br> Construyo páginas web únicas,
           funcionales y atractivas, que combinan diseño, tecnología y una
           experiencia centrada en el usuario.
         </h1>
+        <br>
+
         <p class="presentacion_contenedor_parrafo">
           Soy Administrador de empresas de profesión, actualmente en proceso de
           formación como desarrollador web frontend, con un enfoque en
           tecnologías como HTML, CSS y JavaScript. Estoy participando del
           proyecto Oracle ONE en alura Latam
         </p>
-      </div>
-
-      <!-- <div class="presentacion_enlances"> -->
 
         <ul class="presentacion_enlances_lista">
 
-          <li class="presentacion_enlances_items"><a href="">Gtihub <img src="/img/Inside a.png.png" alt="Imagen de una flecha"></a></li>
-          <li class="presentacion_enlances_items"><a href="">LinkedIn <img src="/img/Inside a.png.png" alt="Imagen de una flecha"></a></li>
-          <li class="presentacion_enlances_items"><a href="">Curriculo <img src="/img/Inside a.png.png" alt="Imagen de una flecha"></a></li>
+          <li class="presentacion_enlances_items"><a href="">Gtihub <img src="/img/Inside a.png.png"
+                alt="Imagen de una flecha"></a></li>
+          <li class="presentacion_enlances_items"><a href="">LinkedIn <img src="/img/Inside a.png.png"
+                alt="Imagen de una flecha"></a></li>
+          <li class="presentacion_enlances_items"><a href="">Curriculo <img src="/img/Inside a.png.png"
+                alt="Imagen de una flecha"></a></li>
 
         </ul>
+      </div>
 
-      <!-- </div> -->
-    </section>
+    </div>
 
-    <!-- Seccion Sobre mi -->
+  </section>
 
-    <section class="sobre_mi" id="sobre_mi">
-      <h2 class="sobre_mi_titulo">Sobre Mi</h2>
+  <!-- Seccion Sobre mi -->
 
-      <p class="sobre_mi_parrafo">
-        Soy Administrador de empresas de profesión, actualmente en proceso de
-        formación como desarrollador web frontend, con un enfoque en tecnologías
-        como HTML, CSS y JavaScript. Mi objetivo es combinar mis competencias en
-        desarrollo web con mi sólida experiencia en el sector administrativo y
-        financiero.
-      </p>
+  <section class="sobre_mi" id="sobre_mi">
+    <h2 class="sobre_mi_titulo">Sobre Mi</h2>
 
-      <p class="sobre_mi_parrafo">
-        He trabajado en asesoría financiera, atención a clientes internos y
-        externos, elaboración de informes de gestión y en la administración de
-        bases de datos. Mi capacidad para cumplir metas y gestionar proyectos se
-        complementa con mis nuevas habilidades tecnológicas, permitiéndome
-        integrar soluciones innovadoras en la gestión empresarial.
-      </p>
-    </section>
+    <p class="sobre_mi_parrafo">
+      Soy Administrador de empresas de profesión, actualmente en proceso de
+      formación como desarrollador web frontend, con un enfoque en tecnologías
+      como HTML, CSS y JavaScript. Mi objetivo es combinar mis competencias en
+      desarrollo web con mi sólida experiencia en el sector administrativo y
+      financiero.
+    </p>
 
-    <!-- Seccion Skills  -->
+    <p class="sobre_mi_parrafo">
+      He trabajado en asesoría financiera, atención a clientes internos y
+      externos, elaboración de informes de gestión y en la administración de
+      bases de datos. Mi capacidad para cumplir metas y gestionar proyectos se
+      complementa con mis nuevas habilidades tecnológicas, permitiéndome
+      integrar soluciones innovadoras en la gestión empresarial.
+    </p>
+  </section>
 
-    <section class="skills" id="skills">
-      <h2 class="skills_titulo">Skills</h2>
+  <!-- Seccion Skills  -->
 
-      <ul class="skills_lista">
+  <section class="skills" id="skills">
+
+    <h2 class="skills_titulo">Skills</h2>
+
+    <div class="contenedor_skills">
+
+      <div class="card" style="background-color: aqua;">
+
+        <div class="img_container">
+          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
+          <p>HTML5</p>
+        </div>
+        
+      </div>
+
+      <div class="card" style="background-color: aqua;">
+
+        <div class="img_container">
+          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
+          <p>HTML5</p>
+        </div>
+        
+      </div>
+
+      <div class="card" style="background-color: aqua;">
+
+        <div class="img_container">
+          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
+          <p>HTML5</p>
+        </div>
+        
+      </div>
+
+      <div class="card" style="background-color: aqua;">
+
+        <div class="img_container">
+          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
+          <p>HTML5</p>
+        </div>
+        
+      </div>
+
+      <div class="card" style="background-color: aqua;">
+
+        <div class="img_container">
+          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
+          <p>HTML5</p>
+        </div>
+        
+      </div>
+
+      
+      <!-- <ul class="skills_lista">
         <li class="skills__elemento">
           <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5" />
           <p class="skills_elemento_nombre">HTML5</p>
@@ -133,11 +173,13 @@
           <img class="skills_elemento_img" src="/img/React.png.png" alt="Imagen de React" />
           <p class="skills_elemento_nombre">React</p>
         </li>
-      </ul>
-      
-    </section>
+      </ul> -->
 
-    <!--Seccion Hobbies   
+    </div>
+
+  </section>
+
+  <!--Seccion Hobbies   
 
    <section class="hobbies" id="hobbies">
     
@@ -179,148 +221,158 @@
 
    </section>
 -->
-      <!--Seccion Formacion -->
+  <!--Seccion Formacion -->
 
-    <section class="formacion" id="formacion">
+  <section class="formacion" id="formacion">
 
-      <h2 class="formacion_titulo">Formación académica</h2>
+    <h2 class="formacion_titulo">Formación académica</h2>
 
-      <ul class="formacion_lista">
+    <ul class="formacion_lista">
 
-        <li class="formacion__elemento">
+      <li class="formacion__elemento">
 
-          <img class="formacion__elemento_img" src="/img/UNAD.jpg" alt="Logo Universidad UNAD" />
+        <img class="formacion__elemento_img" src="/img/UNAD.jpg" alt="Logo Universidad UNAD" />
 
-        </li>
+      </li>
 
-        <div class="formacion_contenedor">
+      <div class="formacion_contenedor">
 
-          <h3 class="formacion_nombre">Administrador de Empresas</h3>
-          <p class="formacion_detalle">Diciembre 2020 - UNAD</p>
+        <h3 class="formacion_nombre">Administrador de Empresas</h3>
+        <p class="formacion_detalle">Diciembre 2020 - UNAD</p>
 
-        </div>
+      </div>
 
-        <li class="formacion__elemento">
+      <li class="formacion__elemento">
 
-          <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
+        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
 
-        </li>
+      </li>
 
-        <div class="formacion_contenedor">
+      <div class="formacion_contenedor">
 
-          <h3 class="formacion_nombre">Desde cero: HTML y CSS para proyectos Web</h3>
-          <p class="formacion_detalle">Septiembre 2024 - Oracle/Alura</p>
+        <h3 class="formacion_nombre">Desde cero: HTML y CSS para proyectos Web</h3>
+        <p class="formacion_detalle">Septiembre 2024 - Oracle/Alura</p>
 
-        </div>
+      </div>
 
-        <li class="formacion__elemento">
+      <li class="formacion__elemento">
 
-          <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
-            
-          <div class="formacion_contenedor">
-  
-            <h3 class="formacion_nombre">Lógica de programación con JavaScript</h3>
-            <p class="formacion_detalle">Agosto 2024 - Oracle/Alura</p>
-  
-          </div>
-        </li>
-
-        <li class="formacion__elemento">
-  
-          <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
-
-        </li>
+        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
 
         <div class="formacion_contenedor">
 
-          <h3 class="formacion_nombre">Principiante en Programación G7 - ONE</h3>
+          <h3 class="formacion_nombre">Lógica de programación con JavaScript</h3>
           <p class="formacion_detalle">Agosto 2024 - Oracle/Alura</p>
 
         </div>
+      </li>
 
-        <li class="formacion__elemento">
-  
-          <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
+      <li class="formacion__elemento">
 
-        </li>
+        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
 
-        <div class="formacion_contenedor">
+      </li>
 
-          <h3 class="formacion_nombre">Desarrollo Personal G7 - ONE</h3>
-          <p class="formacion_detalle">Junio 2024 - Oracle/Alura</p>
+      <div class="formacion_contenedor">
 
-        </div>
+        <h3 class="formacion_nombre">Principiante en Programación G7 - ONE</h3>
+        <p class="formacion_detalle">Agosto 2024 - Oracle/Alura</p>
+
+      </div>
+
+      <li class="formacion__elemento">
+
+        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
+
+      </li>
+
+      <div class="formacion_contenedor">
+
+        <h3 class="formacion_nombre">Desarrollo Personal G7 - ONE</h3>
+        <p class="formacion_detalle">Junio 2024 - Oracle/Alura</p>
+
+      </div>
 
 
 
-      </ul>
+    </ul>
 
-    </section>
+  </section>
 
-    <!-- Seccion Proyectos -->
+  <!-- Seccion Proyectos -->
 
-    <section class="proyectos" id="proyectos">
+  <section class="proyectos" id="proyectos">
 
-      <h2 class="proyectos_titulo">Experiencia Profesional</h2>
+    <h2 class="proyectos_titulo">Experiencia Profesional</h2>
 
-      <ul class="proyectos_lista">
-
-        <li class="proyectos__elemento">
-
-          <img class="proyectos__elemento_img" src="" alt="Imagen de Aluraplay" />
-
-        </li>
-
+    <!--<ul class="proyectos_lista">
+      <li class="proyectos__elemento">
+        <a href="https://titop521.github.io/Encriptador-de-texto/" class="" target="_blank">
+          <img class="proyectos__elemento_img" src="" alt="Imagen de Aluraplay">
+        </a>
         <div class="proyectos__contenedor">
-
           <h3 class="proyectos__nombre">AluraPlay</h3>
           <p class="proyectos__descripcion">HTML/CSS</p>
-          
         </div>
+      </li>
+    -->
 
-        <li class="proyectos__elemento">
-
-          <img class="proyectos__elemento_img" src="/img/Encriptador.png" alt="Imagen del Encriptador de texto" />
-
-        </li>
-
-        <div class="proyectos__contenedor">
-
-          <h3 class="proyectos__nombre">Encriptador de texto</h3>
-          <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
-          
-        </div>
-
-        <li class="proyectos__elemento">
-
-          <img class="proyectos__elemento_img" src="/img/JuegoSecreto.png" alt="Imagen del Juego JuegoSecreto" />
-
-        </li>
-
-        <div class="proyectos__contenedor">
-
-          <h3 class="proyectos__nombre">Juego del Número secreto</h3>
-          <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
-          
-        </div>
-
-      </ul>
+    <li class="proyectos__elemento">
+      <a href="https://titop521.github.io/Encriptador-de-texto/" target="_blank">
+        <img class="proyectos__elemento_img" src="/img/Encriptador.png" alt="Imagen del Encriptador de texto">
+      </a>
+      <div class="proyectos__contenedor">
+        <h3 class="proyectos__nombre">Encriptador de texto</h3>
+        <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
+      </div>
+    </li>
 
 
 
-    </section>
+    <li class="proyectos__elemento">
 
-    <!-- Seccion Contactame -->
+      <a href="https://titop521.github.io/Juego-numero-secreto/" target="_blank">
+        <img class="proyectos__elemento_img" src="/img/JuegoSecreto.png" alt="Imagen del Juego JuegoSecreto" />
+      </a>
+      <div class="proyectos__contenedor">
+        <h3 class="proyectos__nombre">Juego del Número secreto</h3>
+        <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
+      </div>
+    </li>
 
-    <section class="contactame" id="contactame">
+    <li class="proyectos__elemento">
 
-    </section>
+      <a href="https://alura-geek-r4gvin86m-tito-ortizs-projects.vercel.app" target="_blank">
+        <img class="proyectos__elemento_img" src="img/AluraGeek.png" alt="Imagen de AluraGeek" />
+      </a>
+      <div class="proyectos__contenedor">
+        <h3 class="proyectos__nombre">AluraGeek </h3>
+        <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
+      </div>
+    </li>
 
-<footer>
 
-  <p class="copyright">&copy; copyright 2024 - Desarrollado por Tito Ortiz</p>
 
-</footer>
+    </ul>
 
-  </body>
+
+
+  </section>
+
+  <!-- Seccion Contactame -->
+
+  <section class="contactame" id="contactame">
+
+    <!--Formulario-->
+
+  </section>
+
+  <footer>
+
+    <p class="copyright">&copy; copyright 2024 - Desarrollado por Tito Ortiz</p>
+
+  </footer>
+
+</body>
+
 </html>

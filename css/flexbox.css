@@ -2,23 +2,11 @@
   background-color: aqua;
 } */
 
-.presentacion_enlances_lista{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
+
 
 /* .sobre_mi_titulo{
   display: flex;
   justify-content: center;
 } */
 
-.skills_titulo{
-  display: flex;
-  justify-content: center;
-}
-
-.skills_lista{
-  display: flex;
-  
-}
