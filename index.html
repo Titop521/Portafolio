@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/flexbox.css" />
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +24,7 @@
     <nav class="menu_header_navegacion">
       <a href="#sobre_mi">Sobre Mi</a>
       <a href="#skills">Skills</a>
-      <a href="#hobbies">Hobbies</a>
+      <!-- <a href="#hobbies">Hobbies</a> -->
       <a href="#formacion">Formacion</a>
       <a href="#proyectos">Proyectos</a>
       <a href="#contactame">Contactame</a>
@@ -75,6 +74,7 @@
   <!-- Seccion Sobre mi -->
 
   <section class="sobre_mi" id="sobre_mi">
+
     <h2 class="sobre_mi_titulo">Sobre Mi</h2>
 
     <p class="sobre_mi_parrafo">
@@ -102,78 +102,59 @@
 
     <div class="contenedor_skills">
 
-      <div class="card" style="background-color: aqua;">
+      <div class="card">
 
-        <div class="img_container">
-          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
-          <p>HTML5</p>
+        <figure>
+        <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
+        </figure>
+        <div class="card_contenido">
+          <h3>HTML-5</h3>             
         </div>
-        
+
       </div>
 
-      <div class="card" style="background-color: aqua;">
-
-        <div class="img_container">
-          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
-          <p>HTML5</p>
-        </div>
+      <div class="card">
         
+        <figure>
+        <img class="skills_elemento_img" src="/img/css-3.png" alt="Imagen de HTML5">
+        </figure>
+        <div class="card_contenido">
+          <h3>CSS-3</h3>             
+        </div>
+
       </div>
 
-      <div class="card" style="background-color: aqua;">
-
-        <div class="img_container">
-          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
-          <p>HTML5</p>
-        </div>
+      <div class="card">
         
+        <figure>
+        <img class="skills_elemento_img" src="/img/js.png" alt="Imagen de HTML5">
+        </figure>
+        <div class="card_contenido">
+          <h3>JavaScript</h3>             
+        </div>
+
       </div>
 
-      <div class="card" style="background-color: aqua;">
-
-        <div class="img_container">
-          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
-          <p>HTML5</p>
-        </div>
+      <div class="card">
         
+        <figure>
+        <img class="skills_elemento_img" src="/img/nodejs.png" alt="Imagen de HTML5">
+        </figure>
+        <div class="card_contenido">
+          <h3>Node.js</h3>             
+        </div>
+
       </div>
 
-      <div class="card" style="background-color: aqua;">
-
-        <div class="img_container">
-          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5">
-          <p>HTML5</p>
-        </div>
+      <div class="card">
         
-      </div>
+        <figure>
+        <img class="skills_elemento_img" src="/img/React.png" alt="Imagen de HTML5">
+        </figure>
+        <div class="card_contenido">
+          <h3>React</h3>             
+        </div>
 
-      
-      <!-- <ul class="skills_lista">
-        <li class="skills__elemento">
-          <img class="skills_elemento_img" src="/img/html-5.png" alt="Imagen de HTML5" />
-          <p class="skills_elemento_nombre">HTML5</p>
-        </li>
-
-        <li class="skills__elemento">
-          <img class="skills_elemento_img" src="/img/css-3.png" alt="Imagen de CSS" />
-          <p class="skills_elemento_nombre">CSS</p>
-        </li>
-
-        <li class="skills__elemento">
-          <img class="skills_elemento_img" src="/img/js.png" alt="Imagen de JavaScript" />
-          <p class="skills_elemento_nombre">JavaScript</p>
-        </li>
-
-        <li class="skills__elemento">
-          <img class="skills_elemento_img" src="/img/nodejs.png" alt="Imagen de Node.js" />
-          <p class="skills_elemento_nombre">Node.js</p>
-        </li>
-
-        <li class="skills__elemento">
-          <img class="skills_elemento_img" src="/img/React.png.png" alt="Imagen de React" />
-          <p class="skills_elemento_nombre">React</p>
-        </li>
-      </ul> -->
 
     </div>
 
@@ -227,75 +208,59 @@
 
     <h2 class="formacion_titulo">Formación académica</h2>
 
-    <ul class="formacion_lista">
+    <div class="formacion_contenedor">
 
-      <li class="formacion__elemento">
-
-        <img class="formacion__elemento_img" src="/img/UNAD.jpg" alt="Logo Universidad UNAD" />
-
-      </li>
-
-      <div class="formacion_contenedor">
-
-        <h3 class="formacion_nombre">Administrador de Empresas</h3>
-        <p class="formacion_detalle">Diciembre 2020 - UNAD</p>
-
-      </div>
-
-      <li class="formacion__elemento">
-
-        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
-
-      </li>
-
-      <div class="formacion_contenedor">
-
-        <h3 class="formacion_nombre">Desde cero: HTML y CSS para proyectos Web</h3>
-        <p class="formacion_detalle">Septiembre 2024 - Oracle/Alura</p>
-
-      </div>
-
-      <li class="formacion__elemento">
-
-        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
-
-        <div class="formacion_contenedor">
-
-          <h3 class="formacion_nombre">Lógica de programación con JavaScript</h3>
-          <p class="formacion_detalle">Agosto 2024 - Oracle/Alura</p>
-
+      <div class="card_formacion">
+        <figure>
+          <img class="" src="img/UNAD.jpg" alt="Logo Universidad UNAD" />
+        </figure>
+        <div class="contenido_formacion">
+          <h3>Administrador de Empresas</h3>
+          <p>Diciembre 2020 - UNAD</p>
         </div>
-      </li>
-
-      <li class="formacion__elemento">
-
-        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
-
-      </li>
-
-      <div class="formacion_contenedor">
-
-        <h3 class="formacion_nombre">Principiante en Programación G7 - ONE</h3>
-        <p class="formacion_detalle">Agosto 2024 - Oracle/Alura</p>
-
       </div>
 
-      <li class="formacion__elemento">
-
-        <img class="formacion__elemento_img" src="/img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
-
-      </li>
-
-      <div class="formacion_contenedor">
-
-        <h3 class="formacion_nombre">Desarrollo Personal G7 - ONE</h3>
-        <p class="formacion_detalle">Junio 2024 - Oracle/Alura</p>
-
+      <div class="card_formacion">
+        <figure>
+          <img class="" src="img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
+        </figure>
+        <div class="contenido_formacion">
+          <h3>HTML y CSS para proyectos Web</h3>
+          <p>Septiembre 2024 - Oracle/Alura</p>
+        </div>
       </div>
 
+      <div class="card_formacion">
+        <figure>
+          <img class="" src="img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
+        </figure>
+        <div class="contenido_formacion">
+          <h3>Lógica de programación con JavaScript</h3>
+          <p>Agosto 2024 - Oracle/Alura</p>
+        </div>
+      </div>
 
+      <div class="card_formacion">
+        <figure>
+          <img class="" src="img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
+        </figure>
+        <div class="contenido_formacion">
+          <h3>Principiante en Programación G7 - ONE</h3>
+          <p>Agosto 2024 - Oracle/Alura</p>
+        </div>
+      </div>
 
-    </ul>
+      <div class="card_formacion">
+        <figure>
+          <img class="" src="img/aluraoracle.jpg" alt="Logo de Alura y Oracle" />
+        </figure>
+        <div class="contenido_formacion">
+          <h3>Desarrollo Personal G7 - ONE</h3>
+          <p>Junio 2024 - Oracle/Alura</p>
+        </div>
+      </div>
+
+      </div>
 
   </section>
 
@@ -305,58 +270,74 @@
 
     <h2 class="proyectos_titulo">Experiencia Profesional</h2>
 
-    <!--<ul class="proyectos_lista">
-      <li class="proyectos__elemento">
-        <a href="https://titop521.github.io/Encriptador-de-texto/" class="" target="_blank">
-          <img class="proyectos__elemento_img" src="" alt="Imagen de Aluraplay">
-        </a>
-        <div class="proyectos__contenedor">
-          <h3 class="proyectos__nombre">AluraPlay</h3>
-          <p class="proyectos__descripcion">HTML/CSS</p>
+    <div class="proyectos__contenedor">
+
+      <div class="card_proyectos">
+
+        <figure>
+          <img src="img/AluraGeek.png" alt="Imagen de AluraGeek">
+        </figure>
+        <div class="card_proyectos_contenido">
+          <h3>AluraGeek</h3>
+          <p>Challenge Oracle - HTML/CSS/JavaScript</p>
+          <div class="botones_proyectos">
+            <a href="https://github.com/Titop521/AluraGeek." target="_blank" class="button_repo">Repositorio</a>
+            <a href="https://alura-geek-r4gvin86m-tito-ortizs-projects.vercel.app/" target="_blank" class="button_demo">Ver demo</a>
+          </div>             
         </div>
-      </li>
-    -->
 
-    <li class="proyectos__elemento">
-      <a href="https://titop521.github.io/Encriptador-de-texto/" target="_blank">
-        <img class="proyectos__elemento_img" src="/img/Encriptador.png" alt="Imagen del Encriptador de texto">
-      </a>
-      <div class="proyectos__contenedor">
-        <h3 class="proyectos__nombre">Encriptador de texto</h3>
-        <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
       </div>
-    </li>
 
+      <div class="card_proyectos">
 
+        <figure>
+          <img src="img/Encriptador.png" alt="imagen del encriptador de texto">
+        </figure>
+        <div class="card_proyectos_contenido">
+          <h3>Encriptador de texto</h3>
+          <p>Challenge Oracle - HTML/CSS/JavaScript</p>
+          <div class="botones_proyectos">
+            <a href="https://github.com/Titop521/Encriptador-de-texto" target="_blank" class="button_repo">Repositorio</a>
+            <a href="https://titop521.github.io/Encriptador-de-texto/" target="_blank" class="button_demo">Ver demo</a>
+          </div>             
+        </div>
 
-    <li class="proyectos__elemento">
-
-      <a href="https://titop521.github.io/Juego-numero-secreto/" target="_blank">
-        <img class="proyectos__elemento_img" src="/img/JuegoSecreto.png" alt="Imagen del Juego JuegoSecreto" />
-      </a>
-      <div class="proyectos__contenedor">
-        <h3 class="proyectos__nombre">Juego del Número secreto</h3>
-        <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
       </div>
-    </li>
 
-    <li class="proyectos__elemento">
+      <div class="card_proyectos">
 
-      <a href="https://alura-geek-r4gvin86m-tito-ortizs-projects.vercel.app" target="_blank">
-        <img class="proyectos__elemento_img" src="img/AluraGeek.png" alt="Imagen de AluraGeek" />
-      </a>
-      <div class="proyectos__contenedor">
-        <h3 class="proyectos__nombre">AluraGeek </h3>
-        <p class="proyectos__descripcion">Challenge Oracle - HTML/CSS/JavaScript</p>
+        <figure>
+          <img src="img/JuegoSecreto.png" alt="Imagen del Juego JuegoSecreto">
+        </figure>
+        <div class="card_proyectos_contenido">
+          <h3>Juego del Número secreto</h3>
+          <p>Challenge Oracle - HTML/CSS/JavaScript</p>
+          <div class="botones_proyectos">
+            <a href="https://github.com/Titop521/Juego-numero-secreto" target="_blank" class="button_repo">Repositorio</a>
+            <a href="https://titop521.github.io/Juego-numero-secreto/" target="_blank" class="button_demo">Ver demo</a>
+          </div>             
+        </div>
+
       </div>
-    </li>
 
+  <!-- <div class="card_proyectos">
 
+        <figure>
+          <img src="img/Encriptador.png" alt="imagen del encriptador de texto">
+        </figure>
+        <div class="card_proyectos_contenido">
+          <h3>Encriptador de texto</h3>
+          <p>Challenge Oracle - HTML/CSS/JavaScript</p>
+          <div class="botones_proyectos">
+            <button type="button" class="button_repo">Repositorio</button>
+            <button type="button" class="button_demo">Ver demo</button>
+          </div>             
+        </div>
 
-    </ul>
+      </div> -->
 
-
-
+    </div>
+    
   </section>
 
   <!-- Seccion Contactame -->
@@ -365,12 +346,31 @@
 
     <!--Formulario-->
 
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <p>¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+      
+      <form class="formulario_contacto">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+        
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+        
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+        
+        <button type="submit" class="btn_enviar">Enviar mensaje</button>
+      </form>
+    </section>
+  
   </section>
 
   <footer>
-
     <p class="copyright">&copy; copyright 2024 - Desarrollado por Tito Ortiz</p>
-
   </footer>
 
 </body>
